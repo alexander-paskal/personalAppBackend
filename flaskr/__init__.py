@@ -28,6 +28,6 @@ def create_app(test_config=None):
     @app.route('/hello')
     def hello():
 
-        return f"{random.randint(1, 1000)}"
+        return f"Hello Madeleine, you have {random.randint(1, 1000)} seconds to live."
 
     return app
